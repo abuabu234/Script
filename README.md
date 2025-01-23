@@ -1,4 +1,4 @@
-# Scriptif game.PlaceId == 2753915549 then
+if game.PlaceId == 2753915549 then
     World1 = true
 
     game:GetService("Players").LocalPlayer:Kick("Do not Support, Please wait...")
@@ -190,7 +190,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "Sla Hub",
+    Name = "pinguim Hub",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://119980140458596",
     Time = 5
